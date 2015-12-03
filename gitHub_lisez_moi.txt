@@ -1,4 +1,4 @@
-1) creez votre depot git en local
+﻿1) creez votre depot git en local
 
 2) lancer gitBash et entrer les 2 commandes suivantes : 
  git config --global http.proxy http://proxy.univ-lyon1.fr:3128
@@ -23,7 +23,7 @@ nb :  c'est votre nom et mot de passe que vous devez entrer
 
 EDIT : Test commit (Guillaume) 
 EDIT : Test commit (Marvin)
-EDIT : Test commit (Manon)
+EDIT : Test commit (Manon) ++
 EDIT : Test commit (Arthur)
 EDIT : Test commit (Théotim)
 EDIT : Test commit (Kirby)
