@@ -1,0 +1,4 @@
+09:08 03.12.15
++ Fichier avec l'ensembles des prototypes
++ L'arborescence
++ TestUnitaire : case vide/pleine, terrain de jeu, jetons bien placé, arrêt de jeu, joker
