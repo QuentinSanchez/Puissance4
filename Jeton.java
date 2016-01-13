@@ -1,9 +1,11 @@
 
-package jeton;
+package puissance4;
+
+import puissance4.TerrainDeJeu;
 
 public class Jeton{
-    private int colonne;
-    private int ligne;
+    private static int colonne;
+    private static int ligne;
     private String motif;
     private TerrainDeJeu terrain;
     
@@ -17,9 +19,9 @@ public class Jeton{
        }
     
     //méthode qui permet d'insérer le jeton dans la GRILLE (TerrainDeJeu) à la ligne-colonne en paramètre
-    public void insererJeton(TerrainDeJeu terrain, int colonne, int ligne){
-        this.colonne=colonne;
-        this.ligne=ligne;
+    public static void insererJeton(TerrainDeJeu terrain, int colonne, int ligne){
+        Jeton.colonne=colonne;
+        Jeton.ligne=ligne;
         terrain = new TerrainDeJeu(colonne,ligne);
         
     }
